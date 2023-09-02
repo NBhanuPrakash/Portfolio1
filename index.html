@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolia</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="Images/bhanuuu1.png" />
+    <script
+      src="https://kit.fontawesome.com/ed2f933003.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="Images/bhanuuu1.png" alt="Image Not Found" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Full STackDevloper</p>
+          <h1>
+            Hi, I'm <span> Bhanu</span><br />
+            NN From India
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="Images/Bhanu1 (4).jpg" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p onselect="textcopy()">
+              I am a full stack developer with a vast array of knowledge in many
+              different front end and back end languages, responsive frameworks,
+              databases, and best code practices. My objective is simply to be
+              the best full stack developer that I can be and to contribute to
+              the technology industry all that I know and can do.
+            </p>
+            <div class="tab-titile">
+              <p class="tab-links active-link" onclick="opentab('Skils')">
+                Skils
+              </p>
+              <p class="tab-links" onclick="opentab('Experiance')">
+                Experiance
+              </p>
+              <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="Skils">
+              <ul>
+                <li>
+                  <span>UI developer</span><br />Designing Web/App Interfaces
+                </li>
+                <li>
+                  <span>BackEnd developer</span><br />Java/Spring/Spring
+                  Boot/Hibernet/JDBC/MicroSerivces
+                </li>
+                <li><span>Database</span><br />SQL/NOSQL</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Experiance">
+              <ul>
+                <li><span>Student</span><br />Workshop</li>
+                <li>
+                  <span>Major Projects Done</span><br />Banking
+                  Projects/Travelling Projects
+                </li>
+                <li><span>Crud Operations</span><br />SQL/NOSQL</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+              <ul>
+                <li><span>10th Class</span><br />2016-2017</li>
+                <li><span>InterMediate</span><br />2018-2019</li>
+                <li><span>B-Tech</span><br />2019-2023</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-----Servicess--------------->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Devlopers</h2>
+            <p onselect="textcopy()">
+              whether it is a simple text page or a complex web application.
+              Many people think of “web development” as just using a variety of
+              programming languages to create the web app code and put
+              everything together.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>BackEnd Devlopers</h2>
+            <p onselect="textcopy()">
+              Back-end development means working on server-side software, which
+              focuses on everything you can't see on a website. Back-end
+              developers ensure the website performs correctly, focusing on
+              databases, back-end logic, application programming interface
+              (APIs), architecture, and servers.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>App Devlopers</h2>
+            <p onselect="textcopy()">
+              A mobile app development service is most well-known for the
+              development stage, which includes cross-platform support, cost
+              management, and scheduling. App development changes depending on
+              the type of app your company is creating, such as an eCommerce
+              application vs a service.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----------------PortFolio--------------------->
+    <div id="portfolio">
+      <div class="ccontainer">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="Images/Bhanu_we-dev.jpeg" alt="Image is NOt Found" />
+            <div class="layer">
+              <h3>Portfolio Website</h3>
+              <p onselect="textcopy()">
+                A web developer is a programmer who develops World Wide Web
+                applications a client–server model. The applications typically
+                use HTML, CSS, and JavaScript in the client, and any
+                general-purpose programming language in the server.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Images/Java-Dev_Pro.jpg" alt="Image is NOt Found" />
+            <div class="layer">
+              <h3>Banking Websitee</h3>
+              <p onselect="textcopy()">
+                Responsible for developing applications and software using the
+                Java programming language, these specialized programmers
+                collaborate with fellow software engineers, web developers, and
+                others to use Java for developing business applications,
+                websites and more.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Images/Bhanu11(123_).jpg" alt="Image is NOt Found" />
+            <div class="layer">
+              <h3>Travel Website</h3>
+              <p onselect="textcopy()">
+                uses the Spring framework to design and maintain enterprise
+                software applications. As a Java Spring developer, your job
+                duties are to develop, program, troubleshoot, debug, and update
+                custom enterprise web applications.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+    <!---------------Contact--------------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i>nnsaibhnauprakash@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i>+919989639321</p>
+            <div class="social-icons">
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <br />
+            <a href="Images/AcentureResume.pdf" download class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="emailnam"
+                placeholder="Valid Email"
+                required
+              />
+              <textarea
+                name="message"
+                rows="6"
+                placeholder="Your Comments"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copy-right">
+        <p>Cpoyright &copy; Bhanu.&hearts; Made with by Easy NN Devlopers</p>
+      </div>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+
+    </script>
+    <script>
+      function textcopy(){
+        alert("Dont Touch MY TEXT");
+        window.alert("Dont touch the text...!");
+      }
+    </script>
+  </body>
+</html>
